@@ -43,11 +43,11 @@ class _homeState extends State<home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue,
+        backgroundColor: Color.fromRGBO(68, 196, 255, 1),
         centerTitle: true,
         title: Text("Get Your Location "),
       ),
-      backgroundColor: Colors.lightBlueAccent,
+      backgroundColor: const Color.fromRGBO(64, 196, 255, 1),
       body: SafeArea(
           child: Padding(
         padding: EdgeInsets.all(10),
